@@ -1,4 +1,4 @@
-# flutter_project
+# Stopwatch & Timer using Flutter
 
 A new Flutter project.
 
