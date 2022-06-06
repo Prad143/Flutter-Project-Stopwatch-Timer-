@@ -205,7 +205,7 @@ class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
                                   NumberPicker(
                                     value: min,
                                     minValue: 0,
-                                    maxValue: 23,
+                                    maxValue: 60,
                                     onChanged: (val) {
                                       setState(() {
                                         min = val;
@@ -228,7 +228,7 @@ class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
                                   NumberPicker(
                                     value: sec,
                                     minValue: 0,
-                                    maxValue: 23,
+                                    maxValue: 60,
                                     onChanged: (val) {
                                       setState(() {
                                         sec = val;
